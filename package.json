@@ -1,0 +1,16 @@
+{
+  "name": "software-copyright-helper",
+  "version": "1.0.0",
+  "description": "软件著作权助手，用于帮助程序员申请软件著作权统计代码相关的信息。",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./ 软件著作权助手 --platform=win32 --arch=x64 --out=./dist --overwrite"
+  },
+  "author": "wq",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-packager": "^15.2.0"
+  }
+}

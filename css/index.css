@@ -1,0 +1,36 @@
+body {
+    background-color:#ffffff;
+}
+
+#inp_extensions {
+    font-size:18px;
+}
+#btn_execute {
+    width:240px;
+    text-align:center;
+    font-size:24px;
+}
+#lab_infos {
+    background-color:#6b6b6b;
+    color:#ffffff;
+    width:100%;
+    min-height:600px;
+    padding:8px;
+    font-size:18px;
+}
+
+.line {
+    margin:8px;
+    font-size:18px;
+}
+.toggle {
+    width:18px;
+    height:18px;
+}
+.button {
+    font-size:18px;
+}
+.buttonline {
+    margin:8px;
+    text-align:center;
+}

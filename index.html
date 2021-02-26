@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>软件著作权助手</title>
+    </head>
+    <body>
+        <div class="line">代码文件扩展名（多个扩展名请用英文逗号分隔）：<input id="inp_extensions" type="text" value=".ts,.js"></div>
+        <div class="line">是否排除空行：<input id="tog_excludeblankline" class="toggle" type="checkbox"></div>
+        <div class="line">项目代码根目录：<input id="btn_selectrootdir" class="button" type="button" value="选择"></div>
+        <div class="line">是否合并所有代码到一个文件：<input id="tog_mergecode" class="toggle" type="checkbox" checked></div>
+        <div class="buttonline"><input id="btn_execute" type="button" value="执行任务"></div>
+        <div id="lab_infos"></div>
+
+        <script src="src/index.js"></script>
+    </body>
+</html>
